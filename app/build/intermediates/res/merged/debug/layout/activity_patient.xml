@@ -1,0 +1,47 @@
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingRight="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingTop="@dimen/activity_vertical_margin"-->
+    <!--android:paddingBottom="@dimen/activity_vertical_margin"-->
+    <!--tools:context="com.scu.healthcare.patient.PatientActivity">-->
+
+    <!--<TextView-->
+        <!--android:text="@string/hello_world"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+<!--</RelativeLayout>-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/patient_container"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingTop="?android:attr/actionBarSize"
+android:background="@drawable/background"
+tools:context=".patient/PatientActivity">
+
+<!--<TextView-->
+<!--android:text="@string/hello_world"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content" />-->
+<!--<fragment-->
+<!--class="com.scu.healthcare.LoginFragment"-->
+<!--android:id="@+id/login"-->
+<!--android:layout_width="300dp"-->
+<!--android:layout_gravity="center_horizontal|center_vertical"-->
+<!--android:layout_height="wrap_content" />-->
+<!--<fragment-->
+<!--class="com.scu.healthcare.SpinnerFragment"-->
+<!--android:id="@+id/spinner"-->
+<!--android:layout_width="300dp"-->
+<!--android:layout_gravity="center_horizontal|center_vertical"-->
+<!--android:layout_height="wrap_content" />-->
+
+</FrameLayout>
+<!-- From: file:/C:/Users/Mohammad/AndroidStudioProjects/RegisterPortal/app/src/main/res/layout/activity_patient.xml -->
